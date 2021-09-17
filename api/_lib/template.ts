@@ -96,12 +96,14 @@ function getCss(theme: string, fontSize: string) {
         vertical-align: -0.1em;
     }
     
+
     .heading {
-        font-family: 'Inter', sans-serif;
+        font-family: 'Noto Sans JP', 'Inter', sans-serif;
         font-size: ${sanitizeHtml(fontSize)};
         font-style: normal;
+        font-weight: 400;
         color: ${foreground};
-        line-height: 1.8;
+        line-height: 1.5;
     }`;
 }
 
